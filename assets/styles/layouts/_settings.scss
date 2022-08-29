@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'font1';
+    src: url(../fonts/NotoSansMono-VariableFont_wdth\,wght.ttf);
+}
+$font1: "font1", sans-serif;
+$principale: rgb(245, 230, 233);
+$color2: rgb(0, 0, 255);
+$color3: rgb(22, 22, 22);
+
+// MIXINS //@at-root
+@mixin center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: $color2;
+    font-family: $font1;
+}
